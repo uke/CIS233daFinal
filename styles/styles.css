@@ -1,0 +1,69 @@
+/* base color #16667F, Split Complementary color scheme
+
+/* reset */
+body { margin:0;padding:0;}
+
+/* page and layout */
+body { width:100%;background-color:#424E52;color:#666;font-size:.85em;font-family:Verdana,"Lucinda Sans Unicode", Arial, Sans-serif;}
+#container { width:80%;margin-left:auto;margin-right:auto;background-color:#FFFFFF;}
+
+/* logo and banner */
+#logo { width:27em;margin-left:auto;margin-right:auto;}
+#logo img { height:100px;width:100px;float:left;}
+#logo h1 { float:left;margin-right:5px; font-size:3em;font-family:Tahoma;}
+
+#bannerLeft { color:#16667F;}
+#bannerRight { color:#06507F;}
+
+/* nav bar */
+#navcontainer ul { padding: .5em 0;margin:20px 0 10px 0;list-style-type: none;background-color: #79CDE7;color: #7F6316;
+	width: 100%;font: normal 90% arial, helvetica, sans-serif;text-align: center; }
+#navcontainer li { display: inline;}
+#navcontainer li a { text-decoration: none;background-color: #79CDE7;color: #16437F;padding: .5em 1em;border-right: 1px solid #fff; }
+#navcontainer li a:hover { background-color: #06507F;color: #fff; }
+#navcontainer #current { background-color:#16667F;color:#fff; }
+
+/* main content */
+#mainContent h1 { color:#7F1631;font-size:1.6em;margin:.5em 0 .5em 2em; }
+#mainContent h2 { color:#7F1631;font-family:Arial;font-size:1.3em;margin:.5em 0 .1em 2em; }
+#mainContent p { margin:1em 4em 1em 5em; }
+#mainContent ul { margin-left:5em; width:70%; }
+#mainContent em {font-weight:bold; } 
+
+/* images */
+#hierarchyChart {margin-left:60px;}
+/* showcase */
+#showcase {width:80%;margin:10px auto 10px auto;padding:5px;}
+.showCaseImage {float:left;margin:10px;padding:5px;border:1px solid #666;}
+.showCaseImage img {}
+	
+/* fieldsets */
+fieldset {width:80%;margin:10px auto 10px auto;}
+legend {padding:5px;}
+
+/* input & labels */
+.fieldLabel {width:10em;text-align:right;font-weight:bold}
+	
+/* footer */
+#footer { border-top:1px solid #7F1631; }
+#footer p {text-align:center;}
+
+/* definition lists */
+dt {margin-left:5em;color:#7F1631;margin-top:20px;}
+
+/* tables */
+table#milestones  {width:20em;margin:10px auto 10px auto;border-collapse:collapse;}
+#milestones th {border:1px solid #666;padding:5px;}
+#milestones td {border:1px solid #666;padding:5px;}
+
+/* links */
+a { color:#06507F; text-decoration:none; }
+a:hover { color:#7F6316;text-decoration:underline; }
+a:visited { color:#06507F; }
+
+/* misc */
+.floatLeft {float:left;}
+.clear { display:block;clear:both;margin: -0.66em 0;visibility: hidden; }
+.center {text-align:center;}
+.padRight {margin-right:20px;}
+.italic{font-style:italic;}

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Rob Bartlett MEID ROB2081807 CIS233DA - INTERNET/WEB DEVELOPMENT LEVEL II - Class # 12144 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>
+			Zillim Design | Information
+		</title>
+		<meta name="description" content="Zillim Design Information Request Page. Beg us for more information." />
+		<meta name="keywords" content="information,information request,info,infomation,submit" />
+		<link rel="stylesheet" href="styles/styles.css" type="text/css" />
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript">
+</script>
+		<script type="text/javascript">
+//<![CDATA[
+				$(document).ready(function() {
+					$("#dateTimeStamp").text(document.lastModified);
+				 });
+		//]]>
+		</script>
+	</head>
+	<body>
+		<!-- this is where the container starts -->
+		<div id="container">
+			<!-- This is the page heading -->
+			<div id="logo">
+				<h1 id="bannerLeft">
+					Zillim
+				</h1><img src="images/ZDLogo01.png" alt="Zillim Design logo" />
+				<h1 id="bannerRight">
+					Design
+				</h1>
+			</div><!-- This is the nav area -->
+			<hr class="clear" />
+			<div id="navcontainer">
+				<ul id="navlist">
+					<li id="active">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="services.html">Services</a>
+					</li>
+					<li>
+						<a href="#" id="current" name="current">Information</a>
+					</li>
+					<li>
+						<a href="About.html">About</a>
+					</li>
+					<li>
+						<a href="Design.html">Design</a>
+					</li>
+				</ul>
+			</div>
+			<div id="mainContent">
+				<h1>
+					Information
+				</h1>
+				<p>
+					Use this form to request more information about our services.
+				</p>
+				<form method="post" action="http://tools.jaminman.com/echomachine.asp" id="infoForm">
+					<fieldset>
+						<legend>Request Details</legend>
+						<div class="floatLeft padRight">
+							<table>
+								<tr>
+									<td class="fieldLabel">
+										Your name:
+									</td>
+									<td>
+										<input type="text" id="txtName" name="txtName" />
+									</td>
+								</tr>
+								<tr>
+									<td class="fieldLabel">
+										Contact Method:
+									</td>
+									<td>
+										<select id="dropdownContactMethod" name="dropdownContactMethod">
+											<option value="email">
+												Email
+											</option>
+											<option value="telephone">
+												Telephone
+											</option>
+											<option value="mail">
+												Snail Mail
+											</option>
+											<option value="esp">
+												ESP
+											</option>
+											<option value="smoke">
+												Smoke Signal
+											</option>
+											<option value="pigeon">
+												Carrier Pigeon
+											</option>
+											<option value="courier">
+												Secret Courier
+											</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td class="fieldLabel">
+										Contact Details
+									</td>
+									<td>
+										<textarea cols="40" rows="6" id="txtContactDetails" name="txtContactDetails">
+Please enter your contact information here.
+</textarea>
+									</td>
+								</tr>
+								<tr>
+									<td class="fieldLabel">Comments</td>
+									<td>
+										<textarea cols="40" rows="2" id="txtComments" name="txtComments">
+Optional Comments
+</textarea>
+									</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<input type="submit" id="buttonSubmit" value="Submit" />
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div class="floatLeft">
+							<h4>
+								Tell us what you'd like to learn about
+							</h4><input type="checkbox" name="checkTemplate" id="checkTemplate" value="true" /> Template Design<br />
+							<input type="checkbox" name="checkDesign" id="checkDesign" value="true" /> Site Design<br />
+							<input type="checkbox" name="checkMaint" id="checkMaint" value="true" /> Site Maintenance<br />
+							<input type="checkbox" name="checkFlash" id="checkFlash" value="true" /> Flash-based sites<br />
+							<input type="checkbox" name="checkEcomm" id="checkEcomm" value="true" /> E-Commerce<br />
+							<input type="checkbox" name="checkProto" id="checkProto" value="true" /> Protoplasm<br />
+							<input type="checkbox" name="checkCement" id="checkCement" value="true" /> Rubber Cement <br />
+							<input type="checkbox" name="checkHedge" id="checkHedge" value="true" /> Baby Hedgehogs<br />
+							<br />
+							
+						</div>
+						<hr class="clear" />
+					</fieldset>
+				</form>
+			</div><!-- This is the page footer -->
+			<div id="footer">
+				<p>
+					copyright &copy; 2012 Zillim Design. All rights reserved
+				</p>
+				<p>
+					Page last modified: <span id="dateTimeStamp"></span>
+				</p>
+			</div>
+			<div id="weValidated">
+				<table>
+					<tr>
+						<td>
+							<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" style="border: 0; height: 31px; width: 88px" /></a>
+						</td>
+						<td>
+							<a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a>
+						</td>
+					</tr>
+				</table>
+			</div><!-- this is where the container ends -->
+		</div>
+	</body>
+</html>
